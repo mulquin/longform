@@ -1,0 +1,44 @@
+body {
+		color: #222;
+		font-family: 'Merriweather', serif;
+	}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	padding: 1em;
+	border-top: 0.75em solid #F6F6F6;
+}
+
+a, a:visited {
+	color: #1E5DCC;
+}
+
+a:hover {
+	color: #1C51EC;
+}
+
+#logo {
+	font-family: 'Convergence', sans-serif;
+	font-size: 2em;
+	margin: 0 auto;
+	text-align: center;
+	background-color: #FFFFFF;
+	width: 100%;
+	padding: 0.5em;
+}
+
+h1 {
+	font-weight: 900;
+}
+
+img {
+	width: 20%;
+	height: 20%;
+}
+
+pre {
+	background-color: #FEFAE9;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
