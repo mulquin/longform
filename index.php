@@ -12,8 +12,13 @@ define('THEME_URI', 'themes/notebook/');
 // Classes
 include LIB_DIR . 'Parsedown.php';
 include LIB_DIR . 'ParsedownExtra.php';
+include LIB_DIR . 'MetaDB.php';
 include LIB_DIR . 'Longform.php';
 
+include 'meta_db.php';
+
+
+/*
 // App class
 $longform = new Longform();
 
@@ -25,4 +30,4 @@ if (empty($_GET['p'])) {
 	echo $longform->getPost($_GET['p']);
 }
 
-include THEME_URI . 'footer.html';
+include THEME_URI . 'footer.html';*/
