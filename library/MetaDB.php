@@ -49,7 +49,7 @@ class MetaDB
 		$out_str = "<?php\n";
 		
 		foreach ($this->db as $db_record) {
-			$out_str .= "\$db['meta'][] = '".$db_record."'\n";
+			$out_str .= "\$db['meta'][] = '".$db_record."';\n";
 		}
 
 		$this->_writeDBFile($out_str);
