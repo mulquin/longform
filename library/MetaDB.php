@@ -52,8 +52,6 @@ class MetaDB
 			$out_str .= "\$db['meta'][] = '".$db_record."'\n";
 		}
 
-		var_dump($out_str);
-
 		$this->_writeDBFile($out_str);
 	}
 

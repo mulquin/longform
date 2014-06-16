@@ -18,7 +18,6 @@ include LIB_DIR . 'Longform.php';
 include 'meta_db.php';
 
 
-/*
 // App class
 $longform = new Longform();
 
@@ -30,4 +29,4 @@ if (empty($_GET['p'])) {
 	echo $longform->getPost($_GET['p']);
 }
 
-include THEME_URI . 'footer.html';*/
+include THEME_URI . 'footer.html';
